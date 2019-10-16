@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="main">
+
+    <div id="header">
+        <input id="header_header" placeholder="name">
+        <input type="text" id="header_input" placeholder="Ex: Hard-working student, want to achieve in job">
+    </div>
+
+
+    <div id="info">
+        <img src="home/Screenshot from 2019-10-16 10-13-51.png" id="image" alt="image"/>
+        <table>
+            <tr class="contactTable">
+                <td>Contact</td>
+                <td><input type="text" class="contact" placeholder="Ex: 012345678"></td>
+            </tr>
+            <tr class="contactTable" >
+                <td>Email</td>
+                <td><input type="text" class="contact" placeholder="Ex: abc@gmail.com"></td>
+            </tr>
+            <tr class="contactTable">
+                <td>Linkedin</td>
+                <td><input type="text" class="contact" placeholder="Ex: Linkedin.com"></td>
+            </tr>
+            <tr class="contactTable" >
+                <td>Address</td>
+                <td><input type="text" class="contact" placeholder="Ex: NewYork"></td>
+            </tr>
+        </table>
+    </div>
+
+    <div id="profile">
+        <h2 id="profile_header">PROFILE</h2>
+        <textarea id="profile_input" placeholder="Ex: Hard-working student, want to achieve in job"></textarea>
+    </div>
+
+    <div id="experience">
+        <h2 id="experience_header">EXPERIENCE</h2>
+        <textarea id="experience_input" placeholder="Ex: Work at company A from YYYY to YYYY"></textarea>
+    </div>
+
+    <div id="education">
+
+    </div>
+
+    <div id="skills">
+        <h2 id="skills_header">SKILL</h2>
+        <textarea type="text" id="skills_input" placeholder="Ex: Skill"></textarea>
+    </div>
+</div>
+</body>
+<style>
+    #main {
+        border: solid 1px;
+        height: 1000px;
+        width: 800px;
+        position: center;
+    }
+
+    #header {
+        float: right;
+        border: solid 1px;
+        width: 550px;
+        height: 150px;
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    #header_header {
+        margin-left: 10px;
+        position: relative;
+        font-size: 2.5em;
+        font-weight: bold;
+        text-align: center;
+        text-decoration-color: black;
+        text-transform: uppercase;
+        margin-bottom: 10px;
+        border: none;
+    }
+
+    #header_input {
+        position: relative;
+        left: 120px;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        text-decoration-color: black;
+        text-transform: uppercase;
+        font-style: italic;
+        border: none;
+    }
+
+    #info {
+        float: left;
+        margin-left: 10px;
+        border: solid 1px;
+        width: 200px;
+        height: 320px;
+        position: relative;
+        top: 100px;
+        margin-bottom: 10px;
+    }
+
+    #image {
+        position: relative;
+        top: -50px;
+        left: 50px;
+        border: solid 1px;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+    }
+
+    #education {
+        margin-left: 10px;
+        border: solid 1px;
+        width: 200px;
+        height: 320px;
+        position: relative;
+        top: 430px;
+        margin-bottom: 10px;
+    }
+
+
+    #skills {
+        margin-left: 10px;
+        border: solid 1px;
+        width: 200px;
+        height: 230px;
+        position: relative;
+        top: 430px;
+    }
+
+    #skills_header {
+        position: absolute;
+        margin-left: 10px;
+    }
+
+    #skills_input {
+        position: absolute;
+        top: 50px;
+        margin-left: 10px;
+        width: 180px;
+        height: 170px;
+        font-family: Arial, Tahoma;
+
+    }
+
+    #profile {
+        float: right;
+        border: solid 1px;
+        width: 550px;
+        height: 150px;
+        position: relative;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    #profile_header {
+        position: absolute;
+        margin-left: 10px;
+    }
+
+    #profile_input {
+        position: absolute;
+        top: 50px;
+        margin-left: 10px;
+        width: 530px;
+        height: 80px;
+        font-family: Arial, Tahoma;
+        border: none;
+    }
+
+    #experience {
+        float: right;
+        border: solid 1px;
+        width: 550px;
+        height: 600px;
+        position: relative;
+        margin-right: 10px;
+    }
+
+    #experience_header {
+        position: absolute;
+        margin-left: 10px;
+    }
+
+    #experience_input {
+        position: absolute;
+        top: 50px;
+        margin-left: 10px;
+        width: 530px;
+        height: 530px;
+        font-family: Arial, Tahoma;
+        border: none;
+    }
+
+    .contact {
+        width: 120px;
+    }
+
+    .contactTable {
+        height: 50px;
+    }
+
+
+</style>
+</html>
